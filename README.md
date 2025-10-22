@@ -77,12 +77,9 @@ O fluxo principal do usuário já está implementado, conforme demonstrado no v�
 
 ## Demo
 
-
 https://github.com/user-attachments/assets/3aed45f4-42e0-4005-96e0-f29c9ad8d28e
+
 https://github.com/user-attachments/assets/276e6059-7cde-4c8b-a214-f012cb5df928
-
-
-
 
 ## Tecnologias Utilizadas
 
