@@ -7,19 +7,19 @@
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green.svg?logo=python)
 ![Python](https://img.shields.io/badge/Linguagem-Python-3776AB.svg?logo=python)
 
-Reapproveita 🥦
+# Reapproveita 🥦
 
 O Reapproveita é um aplicativo mobile focado em combater o desperdício de alimentos e promover a segurança alimentar. A plataforma conecta supermercados parceiros a consumidores, ofertando produtos próximos da data de validade com um desconto de 50%.
 
 Este projeto ataca diretamente o problema do desperdício, uma pauta de extrema relevância, especialmente em contextos de sustentabilidade e nutrição.
 
-🎯 Contexto do Projeto
+ ## Contexto do Projeto
 
 Este aplicativo foi idealizado e desenvolvido como uma solução para um Hackathon de Saúde e Nutrição. O objetivo era criar uma ferramenta tecnológica viável que pudesse causar um impacto positivo e direto na saúde da população e na cadeia de suprimentos de alimentos.
 
 ⚠️ Aviso: Este é um projeto de protótipo e continua em desenvolvimento. Algumas telas e funcionalidades podem não estar 100% funcionais e servem como prova de conceito.
 
-✨ Funcionalidades Implementadas (Demo)
+## Funcionalidades Implementadas (Demo)
 
 O fluxo principal do usuário já está implementado, conforme demonstrado no vídeo:
 
@@ -65,7 +65,7 @@ O fluxo principal do usuário já está implementado, conforme demonstrado no v�
 
         Tela de Perfil de usuário (layout).
 
-🎥 Screenshots
+## Algumas Screenshots
 
 <img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-10-22 at 15 57 09" src="https://github.com/user-attachments/assets/3a143999-e2f7-4d86-b68f-30db9c141234" />
 <img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-10-22 at 15 57 27" src="https://github.com/user-attachments/assets/52811b12-0d3b-4aad-b71c-bd4cc5392af7" />
@@ -73,7 +73,7 @@ O fluxo principal do usuário já está implementado, conforme demonstrado no v�
 <img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-10-22 at 15 57 56" src="https://github.com/user-attachments/assets/0c6b1077-6db9-4fc4-b5a3-f302379d0311" />
 <img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-10-22 at 15 58 18" src="https://github.com/user-attachments/assets/601344be-b122-4ce1-9cae-150f3f7c987c" />
 
-🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 O projeto foi construído com uma stack moderna, separando claramente o frontend do backend:
 
@@ -99,7 +99,7 @@ Backend (API)
 
     FastAPI: Framework web moderno e de alta performance para construir APIs com Python.
 
-🗂️ Estrutura do Projeto (App Flutter)
+## Estrutura do Projeto (App Flutter)
 
 O código-fonte do aplicativo Flutter está organizado de forma limpa, seguindo as melhores práticas de separação de responsabilidades:
 
@@ -127,7 +127,7 @@ lib/
 └── main.dart         # Ponto de entrada da aplicação
 ```
 
-🚀 Como Executar (Em breve)
+## Como Executar (Em breve)
 
 Instruções detalhadas de como configurar e executar o backend FastAPI e o app Flutter serão adicionadas em breve.
 
