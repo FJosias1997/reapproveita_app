@@ -67,11 +67,13 @@ O fluxo principal do usuário já está implementado, conforme demonstrado no v�
 
 ## Algumas Screenshots
 
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-10-22 at 15 57 09" src="https://github.com/user-attachments/assets/3a143999-e2f7-4d86-b68f-30db9c141234" />
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-10-22 at 15 57 27" src="https://github.com/user-attachments/assets/52811b12-0d3b-4aad-b71c-bd4cc5392af7" />
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-10-22 at 15 57 51" src="https://github.com/user-attachments/assets/bd6663b9-ffa5-4e19-9cb6-93859952de4b" />
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-10-22 at 15 57 56" src="https://github.com/user-attachments/assets/0c6b1077-6db9-4fc4-b5a3-f302379d0311" />
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-10-22 at 15 58 18" src="https://github.com/user-attachments/assets/601344be-b122-4ce1-9cae-150f3f7c987c" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3a143999-e2f7-4d86-b68f-30db9c141234" width="230" />
+  <img src="https://github.com/user-attachments/assets/52811b12-0d3b-4aad-b71c-bd4cc5392af7" width="230" />
+  <img src="https://github.com/user-attachments/assets/bd6663b9-ffa5-4e19-9cb6-93859952de4b" width="230" />
+  <img src="https://github.com/user-attachments/assets/0c6b1077-6db9-4fc4-b5a3-f302379d0311" width="230" />
+  <img src="https://github.com/user-attachments/assets/601344be-b122-4ce1-9cae-150f3f7c987c" width="230" />
+</p>
 
 ## Tecnologias Utilizadas
 
