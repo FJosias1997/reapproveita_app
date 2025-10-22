@@ -7,7 +7,8 @@ import 'package:reapproveita_app/global_widgets/app_bar/default_app_bar.dart';
 import 'package:reapproveita_app/pages/search_results/search_results_page.dart';
 
 class SeachPageExpandedPage extends StatefulWidget {
-  const SeachPageExpandedPage({super.key});
+  final String? initialQuery;
+  const SeachPageExpandedPage({this.initialQuery, super.key});
 
   @override
   State<SeachPageExpandedPage> createState() => _SeachPageExpandedPageState();
@@ -41,6 +42,7 @@ class _SeachPageExpandedPageState extends State<SeachPageExpandedPage> {
     return Scaffold(
       appBar: DefaultAppBar(
         deactivateTrailing: true,
+        queryValue: widget.initialQuery,
         onSearch: (p0) {
           setState(() {
             query = p0;
@@ -56,18 +58,33 @@ class _SeachPageExpandedPageState extends State<SeachPageExpandedPage> {
             children: [
               ListView.builder(
                 shrinkWrap: true,
-                itemCount: suggestions.length,
+                itemCount: suggestions.length + 1,
                 itemBuilder: (context, index) {
-                  return ListTile(
-                    title: GestureDetector(
-                      onTap: () {
-                        context.goPush(
-                          SearchResultsPage(querySelected: suggestions[index]),
-                        );
-                      },
-                      child: Text(suggestions[index]),
-                    ),
-                  );
+                  if (index == 0) {
+                    return ListTile(
+                      title: GestureDetector(
+                        onTap: () {
+                          context.goPush(
+                            SearchResultsPage(querySelected: query ?? ''),
+                          );
+                        },
+                        child: Text(query ?? ''),
+                      ),
+                    );
+                  } else {
+                    return ListTile(
+                      title: GestureDetector(
+                        onTap: () {
+                          context.goPush(
+                            SearchResultsPage(
+                              querySelected: suggestions[index - 1],
+                            ),
+                          );
+                        },
+                        child: Text(suggestions[index - 1]),
+                      ),
+                    );
+                  }
                 },
               ),
             ],

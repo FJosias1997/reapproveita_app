@@ -47,20 +47,26 @@ class _DefaultAppBarState extends State<DefaultAppBar> {
           widget.deactivateSearch == true
               ? GestureDetector(
                 onTap: () {
-                  context.goPush(SeachPageExpandedPage());
+                  context.goPush(
+                    SeachPageExpandedPage(
+                      initialQuery: widget.queryValue ?? '',
+                    ),
+                  );
                 },
                 child: Container(
+                  width: context.width * 0.9,
                   decoration: BoxDecoration(
                     color: context.colorScheme.inversePrimary,
                     borderRadius: BorderRadius.circular(25.0),
                   ),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 56,
+                      horizontal: 20,
                       vertical: 8,
                     ),
                     child: Text(
-                      AppConstants.searchLabel,
+                      widget.queryValue ?? AppConstants.searchLabel,
+                      textAlign: TextAlign.start,
                       style: context.theme.textTheme.titleMedium?.copyWith(
                         color: context.theme.colorScheme.inverseSurface,
                       ),

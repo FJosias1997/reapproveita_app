@@ -42,12 +42,20 @@ class _SearchResultsPageState extends State<SearchResultsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: DefaultAppBar(queryValue: widget.querySelected),
+      appBar: DefaultAppBar(
+        queryValue: widget.querySelected,
+        deactivateSearch: true,
+      ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16),
           child: Column(
-            children: [CardsSingleProductsWidget(products: products)],
+            children: [
+              if (products.isNotEmpty)
+                CardsSingleProductsWidget(products: products)
+              else
+                const Center(child: Text('Nenhum produto encontrado')),
+            ],
           ),
         ),
       ),
