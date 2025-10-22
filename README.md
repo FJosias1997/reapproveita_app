@@ -75,6 +75,15 @@ O fluxo principal do usuário já está implementado, conforme demonstrado no v�
   <img src="https://github.com/user-attachments/assets/601344be-b122-4ce1-9cae-150f3f7c987c" width="230" />
 </p>
 
+## Demo
+
+
+https://github.com/user-attachments/assets/3aed45f4-42e0-4005-96e0-f29c9ad8d28e
+https://github.com/user-attachments/assets/276e6059-7cde-4c8b-a214-f012cb5df928
+
+
+
+
 ## Tecnologias Utilizadas
 
 O projeto foi construído com uma stack moderna, separando claramente o frontend do backend:
